@@ -1,0 +1,111 @@
+
+
+@mixin cuadrado($color)
+{
+	width:150px;
+	height:100px;
+	display:inline-block;
+	background-color:$color;
+}
+
+.cuadrado1a
+{
+	@include cuadrado(#69d2e7);
+}
+.cuadrado2a
+{
+	@include cuadrado(#a7dbdb);
+}
+.cuadrado3a
+{
+	@include cuadrado(#e0e4cc);
+}
+.cuadrado4a
+{
+	@include cuadrado(#f38630);
+}
+.cuadrado5a
+{
+	@include cuadrado(#fa6900);
+}
+.cuadradob1
+{
+	@include cuadrado(#e94c67);
+}
+.cuadradob2
+{
+	@include cuadrado(#542733);
+}
+.cuadradob3
+{
+	@include cuadrado(#5a6a62);
+}
+.cuadradob4
+{
+	@include cuadrado(#c6d5cd);
+}
+.cuadradob5
+{
+	@include cuadrado(#fdf200);
+}
+
+.cuadradoc1
+{
+	@include cuadrado(#db3340);
+}
+.cuadradoc2
+{
+	@include cuadrado(#e8b71a);
+}
+.cuadradoc3
+{
+	@include cuadrado(#f7eac8);
+}
+.cuadradoc4
+{
+	@include cuadrado(#1fda9a);
+}
+.cuadradoc5
+{
+	@include cuadrado(#28abe3);
+}
+.cuadradod1
+{
+	@include cuadrado(#588C73);
+}
+.cuadradod2
+{
+	@include cuadrado(#f2e394);
+}
+.cuadradod3
+{
+	@include cuadrado(#f2ae72);
+}
+.cuadradod4
+{
+	@include cuadrado(#d96459);
+}
+.cuadradod5
+{
+	@include cuadrado(#8c4646);
+}
+.cuadradoe1
+{
+	@include cuadrado(#d0c91f);
+}
+.cuadradoe2
+{
+	@include cuadrado(#85c4b9);
+}
+.cuadradoe3
+{
+	@include cuadrado(#008bba);
+}
+.cuadradoe4
+{
+	@include cuadrado(#df514c);
+}
+.cuadradoe5
+{
+	@include cuadrado(#dc403b);
+}
